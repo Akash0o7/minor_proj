@@ -1,0 +1,100 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  width: 800px;
+  height: 45px;
+  border-radius: 14px;
+  background: rgba(33, 13, 12, 70%); /* Semi-transparent white */
+
+  backdrop-filter: blur(10px); /* Blur effect */
+  font-family: Lexend Deca;
+  font-size: 18px;
+
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  color: #ffffff;
+}
+a{
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover{
+  color: #ffef9c;
+}
+.container{
+  width: 800px;
+
+}
+
+
+
+body {
+  font-family: Lexend Deca;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the container vertically */
+  color: #ffffff;
+ 
+   
+}
+
+.container {
+  display: flex;
+  text-align:center;
+  gap: 10px; /* Adds space between the columns */
+  max-width: 700px; /* Optional: Sets a maximum width for the container */
+  width: 100%; /* Ensure the container takes full available width */
+}
+
+/* Logo column */
+.logo {
+  flex: 1; /* Takes up one part of the available space */
+  display: flex;
+  width: 100px;
+}
+
+.logo img {
+
+  width: 700px;
+  height: 300px; /* Ensure the logo scales properly */
+}
+
+/* Mission column */
+.mission {
+  flex: 1; /* Takes up two parts of the available space */
+  display: flex;
+  align-items: center; 
+  
+  
+}
+
+.mission p {
+  margin-left: 0px;
+  text-align: center; /* Optional: Justifies the text */
+}
+.last{
+  background-color: #A22C29;
+  height: 200px;
+  
+}
+.one{
+  display: flex;
+  flex: 1;
+}
+.two{
+  display: flex;
+  flex: 1;
+}
+.three{
+  display: flex;
+  flex: 1;
+}
